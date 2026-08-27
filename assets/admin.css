@@ -1,0 +1,121 @@
+.wbdp-wrap {
+    max-width: 1200px;
+}
+
+.wbdp-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 18px 0;
+}
+
+.wbdp-filter-form {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+}
+
+.wbdp-filter-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.wbdp-search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.wbdp-filter-form input[type="search"] {
+    min-width: 320px;
+    padding-right: 34px;
+}
+
+#wbdp-search-spinner {
+    position: absolute;
+    right: 7px;
+    margin: 0;
+    float: none;
+}
+
+.wbdp-live-hint {
+    color: #646970;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.wbdp-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0 10px;
+}
+
+.wbdp-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.wbdp-selected-count {
+    color: #646970;
+}
+
+.wbdp-total {
+    color: #50575e;
+}
+
+.wbdp-results {
+    position: relative;
+    transition: opacity .15s ease;
+}
+
+.wbdp-results.is-loading {
+    opacity: .55;
+    pointer-events: none;
+}
+
+.wbdp-pagination-wrap {
+    min-height: 30px;
+}
+
+.wbdp-col-author {
+    width: 18%;
+}
+
+.wbdp-col-date {
+    width: 18%;
+}
+
+.wbdp-col-id {
+    width: 80px;
+}
+
+.wbdp-help h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 782px) {
+    .wbdp-filter-form,
+    .wbdp-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .wbdp-search-wrap,
+    .wbdp-filter-form input[type="search"] {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .wbdp-col-author,
+    .wbdp-col-date,
+    .wbdp-col-id {
+        display: none;
+    }
+}
