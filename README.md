@@ -8,7 +8,7 @@ This repository may contain multiple versions of the plugin. Each version is mai
 
 - `wp-bulk-draft-published-v1.1.0/`
 - `wp-bulk-draft-published-v1.3.0/`
-- Add future versions using the same naming pattern: `wp-bulk-draft-published-vX.Y.Z/`
+- `wp-bulk-draft-published-v1.4.0/`
 
 Replace `X.Y.Z` with the version number for each release. Each version folder should contain that release's plugin files. This README applies generally to the versions in this repository; check the relevant version folder for its specific implementation.
 
